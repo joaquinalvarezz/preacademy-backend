@@ -4,8 +4,9 @@
 
 ## 🔹 Preguntas sobre Java
 
-1. ¿Cuál es la diferencia entre una clase y un objeto en Java?
-2. ¿Por qué en Java todo debe estar dentro de una clase?
+1. 
+   La clase en un conjunto de datos, ahí se guardan el nobre de la clase y sus atributos o caracteristicas principales que las hacen distintos a otras clases, también contienen métodos y constructores. Los objetos se crean a partir de las clases, sino no podrían existir como bloque de código. 
+2. En Java todo tiene que estar adentro de una clase porque su estructura está conformada de esa manera al ser un lenguaje estructurado orientado a objetos. 
 3. ¿Qué significa que Java sea un lenguaje *fuertemente tipado*?
 4. ¿Qué función cumple el método `main()` en una aplicación Java?
 5. ¿Qué diferencias notás entre Java y otros lenguajes que hayas usado anteriormente? (por ejemplo Python, JavaScript, etc.)
