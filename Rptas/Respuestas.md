@@ -17,9 +17,9 @@
 
 6. ¿Qué es la **encapsulación** y por qué es importante?
 7. ¿Qué ventajas tiene crear métodos *getter* y *setter* en lugar de acceder directamente a los atributos?
-8. ¿Qué es un **constructor** y para qué se usa?
-9. ¿Podés explicar con tus palabras qué es un **método** y cómo se relaciona con los objetos?
-10. ¿Cuál es el beneficio de tener más de una clase en un programa?
+8. El Constructor es un método especial que se usa para inicializar una clase u objeto. Siempre tiene el mismo nombre que la clase, se puede llamar más de una vez. Pueden también tomar parametros para crear atributos o darles caracteristicas. 
+9. Los métodos son acciones que se encuentran dentro de una clase u objeto, pueden no existir, pero la mayoría si las contiene.
+10. Principalmente porque los podes separar dependiendo su función y también los podes reutilizar. Los podes modificar acorde a tus necesidades y podes crear clases públicas o privadas. 
 
 ---
 
