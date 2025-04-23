@@ -1,4 +1,5 @@
 package main;
+package models;
 
 public class Initial {
 
@@ -8,7 +9,7 @@ public class Initial {
         // CONSIGNA 1:
         // Crear un nuevo package dentro del path src/main llamado models.
         // Ese package es donde deben colocar las clases que van a crear a continuación.
-
+       
 
         // CONSIGNA 2:
         // Crear una clase llamada "Persona" dentro del path src/main.
@@ -42,5 +43,39 @@ public class Initial {
         // TODO: ↓ Acá podés comenzar a resolver desde el main:
 
         // ¡A codear!
+        public class Persona{
+            private String nombre;
+            private int edad;
+            private String dni;
+
+            public Persona(String nuevoNombre, int nuevaEdad, String nuevodni){
+               this.nombre = nuevoNombre;
+               this.edad = nuevaEdad;
+               this.dni = nuevodni; 
+            }
+
+            public int getEdad(){
+                return edad;
+            }
+            public String getDni(){
+                return dni;
+            }
+            public String getNombre(){
+                return nombre;
+            }
+            public SetEdad(int nuevaEdad){
+                edad = nuevaEdad;
+            }
+            public SetDni(String nuevoDNI){
+                dni = nuevoDNI;
+            }
+            public SetNombre(String nuevoNombre){
+                nombre = nuevoNombre;
+            }
+
+           /* En constrocución  public mostrarInformacion(String nombre, int edad, String dni){
+            
+            }*/
+        }
     }
 }
