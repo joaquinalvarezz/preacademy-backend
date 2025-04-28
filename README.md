@@ -44,7 +44,7 @@ Estas preguntas no tienen una única respuesta correcta. Lo importante es que pu
 
 --- 
 
-## Estructura de paquetes y clases
+## 📂 Estructura de paquetes y clases
 
 Las clases de un proyecto pueden ser estructuradas de diferentes maneras dependiendo de varios factores, como la complejidad, 
 el tipo de proyecto, la arquitectura, entre otras cosas. Los paquetes son los que nos permiten organizar las clases, agrupando aquellas 
