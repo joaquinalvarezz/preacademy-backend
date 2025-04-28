@@ -52,9 +52,9 @@ que tengan algún vínculo entre sí.
 
 En este repositorio, se plantea la siguiente estructura de paquetes: `src/main/[nombre-ejercicio]`
 Dentro de cada carpeta de ejercicio van a encontrar los siguientes paquetes base: 
-- `model`: en este paquete se almacenan todas las clases de entidad que van a conformar el desarrollo del ejercicio.
-- `service` (lo tienen que crear ustedes): acá se va a encontrar la clase con el método main (punto de ejecución).
-- `util` (lo tienen que crear ustedes): acá pueden almacenar clases que contengan funcionalidades extra a las que ya poseen las clases de entidad.
+- `model` **(lo tienen que crear ustedes)**: en este paquete se almacenan todas las clases de entidad que van a conformar el desarrollo del ejercicio.
+- `service`: acá se va a encontrar la clase con el método main (punto de ejecución).
+- `util` **(lo tienen que crear ustedes)**: acá pueden almacenar clases que contengan funcionalidades extra a las que ya poseen las clases de entidad.
 
 Esta estructura de paquetes es una propuesta. En caso de no utilizar alguno de los paquetes sugeridos, pueden borrarlo (el util, por ejemplo), 
 como así también pueden agregar algún otro paquete que consideren necesario, siempre y cuando sea coherente (es decir, que aporte a la organización 
