@@ -1,4 +1,4 @@
-package main;
+package main.electrodomestic.service;
 
 public class ElectrodomesticExercice {
     public static void main(String[] args) {

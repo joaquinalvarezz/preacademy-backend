@@ -1,4 +1,4 @@
-package main;
+package main.bank.service;
 
 public class BankExercice {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main;
+package main.initial.service;
 
 public class Initial {
 

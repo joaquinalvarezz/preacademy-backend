@@ -1,4 +1,4 @@
-package main;
+package main.person.service;
 
 public class PersonExercice {
     public static void main(String[] args) {

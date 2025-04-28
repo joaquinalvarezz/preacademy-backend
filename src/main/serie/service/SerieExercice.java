@@ -1,4 +1,4 @@
-package main;
+package main.serie.service;
 
 public class SerieExercice {
     public static void main(String[] args) {
