@@ -1,5 +1,9 @@
 package main.person.service;
 
+import main.models.PersonaDos;
+
+import java.time.LocalDate;
+
 public class PersonExercice {
     public static void main(String[] args) {
 
@@ -66,6 +70,33 @@ public class PersonExercice {
         // Llamar y probar todos los métodos de instancia desde aquí.
 
         // ¡A programar!
+
+        PersonaDos p1 = new PersonaDos("123456789");
+        PersonaDos p2 = new PersonaDos("Pedro","987654312");
+        PersonaDos p3 = new PersonaDos("Juan", LocalDate.of(2020,5,7),"569874123");
+
+        p1.setPeso(90.5);
+        p1.setAltura(1.70);
+        p2.setPeso(70);
+        p2.setAltura(1.75);
+        p3.setPeso(50);
+        p3.setAltura(1.80);
+        p1.setSexo("F");
+        p2.setSexo("M");
+        p3.setSexo("M");
+
+        PersonaDos[] personas = {p1,p2,p3};
+
+        for (PersonaDos p : personas){
+            System.out.println("==== RESUMEN ====");
+            System.out.println(p.toString());
+            System.out.println("Está en forma: " + p.estaEnForma());
+            System.out.println("Es su cumpleaños hoy: " + p.esCumpleHoy());
+            System.out.println("Es mayor de edad: " + p.esMayordeEdad());
+            System.out.println("Puede votar: " + p.puedeVotar());
+            System.out.println();
+        }
+
     }
 }
 
