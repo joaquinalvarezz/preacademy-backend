@@ -1,0 +1,20 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# Archivos del IDE
+.idea/
+*.iml
+.vscode/
+
+# Archivos compilados
+*.class
+/out/
+target/
+bin/
+build/
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp

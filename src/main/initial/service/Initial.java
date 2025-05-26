@@ -1,5 +1,7 @@
 package main.initial.service;
 
+import main.models.Persona;
+
 public class Initial {
 
     public static void main(String[] args) {
@@ -42,5 +44,17 @@ public class Initial {
         // TODO: ↓ Acá podés comenzar a resolver desde el main:
 
         // ¡A codear!
+
+        Persona p1 = new Persona("Juan Perez", 20, "123456789");
+        Persona p2 = new Persona("John Doe", 10, "987654321");
+
+        System.out.println(p1.toString());
+        System.out.println(p2.toString());
+        System.out.println(p1.esMayorDeEdad());
+        System.out.println(p2.esMayorDeEdad());
+
+
+
+
     }
 }
